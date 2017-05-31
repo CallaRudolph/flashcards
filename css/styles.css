@@ -1,3 +1,6 @@
-#showing {
+.show-js {
+  display: none;
+}
+.show-op {
   display: none;
 }

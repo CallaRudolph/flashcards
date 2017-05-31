@@ -1,6 +1,10 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $("#vocab").toggle();
-    $("#showing").toggle();
+  $(".click-js").click(function() {
+    $(".show-js").toggle();
+    $(".hide-js").toggle();
+  });
+  $(".click-op").click(function() {
+    $(".show-op").toggle();
+    $(".hide-op").toggle();
   });
 });
