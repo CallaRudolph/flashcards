@@ -8,23 +8,33 @@
     <title>Flashcards</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <h1>Here are our Epicodus Flashiesss!</h1>
       <h4>Click each term to display the definition. Then click the definition to hide it again.</h4>
-      <div class="click-js">
-        <div class="show-js">
-          <p>JavaScript is the programming language of HTML and the Web.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="well">
+            <div id="js">
+              <div class="term">
+                <p>Javascript JS</p>
+              </div>
+              <div class="def">
+                <p>JavaScript is the programming language of HTML and the Web.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="hide-js">
-          <p>Javascript JS</p>
-        </div>
-      </div>
-      <div class="click-op">
-        <div class="show-op">
-          <p>This is a + - * / or % and can be performed on sets of numbers in JS</p>
-        </div>
-        <div class="hide-op">
-          <p>Operators</p>
+        <div class="col-md-6">
+          <div class="well">
+            <div id="op">
+              <div class="term">
+                <p>Operators</p>
+              </div>
+              <div class="def">
+                <p>This is a + - * / or % and can be performed on sets of numbers in JS</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

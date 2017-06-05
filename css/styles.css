@@ -1,6 +1,13 @@
-.show-js {
+.def {
   display: none;
 }
-.show-op {
-  display: none;
+
+.well {
+  border: 2px solid cyan;
+  text-align: center;
+  background-color: orange;
+}
+
+.hide {
+  text-shadow: 6px 6px black;
 }

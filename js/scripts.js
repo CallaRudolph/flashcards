@@ -1,10 +1,10 @@
 $(document).ready(function() {
-  $(".click-js").click(function() {
-    $(".show-js").toggle();
-    $(".hide-js").toggle();
+  $("#js").click(function() {
+    $("#js .def").toggle();
+    $("#js .term").toggle();
   });
-  $(".click-op").click(function() {
-    $(".show-op").toggle();
-    $(".hide-op").toggle();
+  $("#op").click(function() {
+    $("#op .def").toggle();
+    $("#op .term").toggle();
   });
 });
