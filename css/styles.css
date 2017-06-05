@@ -6,8 +6,10 @@
   border: 2px solid cyan;
   text-align: center;
   background-color: orange;
+  padding: 2px;
+  text-rendering: auto;
 }
 
-.hide {
-  text-shadow: 6px 6px black;
+.term {
+font-weight: bold;
 }
